@@ -98,7 +98,6 @@ let loadAssets = await BABYLON.SceneLoader.ImportMesh("", "https://raw.githubuse
         initFunction().then(() => {scene.then(returnedScene => { sceneToRender = returnedScene; });
                             
         });
-
         // Resize
         window.addEventListener("resize", function () {
             engine.resize();
